@@ -1,5 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+  <head>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset class="account-info">
+        <label>
+          Full name
+          <input type="text" name="fullname" />
+        </label>
+        <label>
+          Username
+          <input type="text" name="username" />
+        </label>
+        <label>
+          Password
+          <input type="text" name="password" />
+        </label>
+        <label>
+          Age
+          <input type="number" name="age" />
+        </label>
+        <label>
+          email
+          <input type="text" name="email" />
+        </label>
+        <label>
+          Gender
+          <select name="day">
+            <option value="Male" selected>Select your answer</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset class="account-action">
+        <input class="btn" type="submit" name="submit" value="Submit" />
+        <label>
+          <input type="checkbox" name="terms" /> accept terms and conditions
+        </label>
+      </fieldset>
+    </form>
+  </body>
 </html>
